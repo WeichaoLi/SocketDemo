@@ -28,9 +28,13 @@ class SocketDemoTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateStyle = .LongStyle
+        dateFormatter.timeStyle = .ShortStyle
+        let date = NSDate()
+        self.measureBlock() {
+            let string = dateFormatter.stringFromDate(date)
+            NSLog("=======%@", string)
         }
     }
-    
 }

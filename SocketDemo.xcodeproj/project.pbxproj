@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4D1DDE1C869D0D0069940F /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B4D1DE01C869D0D0069940F /* File.strings */; };
 		1BC2BD8A1C7ED855001C8C82 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BD891C7ED855001C8C82 /* Socket.swift */; };
 		1BC2BD8E1C7EE401001C8C82 /* myMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BD8C1C7EE401001C8C82 /* myMath.c */; };
 		1BFC1DCB1C7D8C2C00025EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC1DCA1C7D8C2C00025EE9 /* AppDelegate.swift */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B4D1DDF1C869D0D0069940F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
+		1B4D1DE11C869D120069940F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/File.strings; sourceTree = "<group>"; };
 		1BC2BD891C7ED855001C8C82 /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		1BC2BD8B1C7EE400001C8C82 /* SocketDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		1BC2BD8C1C7EE401001C8C82 /* myMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myMath.c; sourceTree = "<group>"; };
@@ -117,6 +120,7 @@
 				1BFC1DD61C7D8C2C00025EE9 /* Info.plist */,
 				1BFC1DFB1C7DB11400025EE9 /* 1.png */,
 				1BC2BD8B1C7EE400001C8C82 /* SocketDemo-Bridging-Header.h */,
+				1B4D1DE01C869D0D0069940F /* File.strings */,
 			);
 			path = SocketDemo;
 			sourceTree = "<group>";
@@ -245,6 +249,7 @@
 			files = (
 				1BFC1DD51C7D8C2C00025EE9 /* LaunchScreen.storyboard in Resources */,
 				1BFC1DFC1C7DB11400025EE9 /* 1.png in Resources */,
+				1B4D1DDE1C869D0D0069940F /* File.strings in Resources */,
 				1BFC1DD21C7D8C2C00025EE9 /* Assets.xcassets in Resources */,
 				1BFC1DFA1C7D9C4F00025EE9 /* ViewController.xib in Resources */,
 				1BFC1DD01C7D8C2C00025EE9 /* Main.storyboard in Resources */,
@@ -311,6 +316,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1B4D1DE01C869D0D0069940F /* File.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4D1DDF1C869D0D0069940F /* en */,
+				1B4D1DE11C869D120069940F /* Base */,
+			);
+			name = File.strings;
+			sourceTree = "<group>";
+		};
 		1BFC1DCE1C7D8C2C00025EE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

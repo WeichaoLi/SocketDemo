@@ -7,9 +7,13 @@
 //
 
 #include "myMath.h"
+//#include <sys/socket.h>
+//#include <CoreFoundation/CFSocket.h>
 
-void test(char a[]) {
-    for (int i = 0; i < sizeof(&a); i++) {
-        printf("%c\n", a[i]);
-    }
-}
+//void test(char a[]) {
+//    printf("%lu", strlen(a));
+//    printf("=====%s\n", a);
+//    for (int i = 0; i < strlen(a); i++) {
+//        printf("%c\n", a[i]);
+//    }
+//}
